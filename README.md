@@ -14,4 +14,8 @@
 
 Basically, feel free to use and re-use any way you want.
 
-                     composer install --ignore-platform-reqs
+                    git clone https://github.com/Amitshen/Laravel-admin.git
+                    cp .env.example .env
+                    php artisan key:generate
+                    php artisan migrate --seed
+                    composer install --ignore-platform-reqs
