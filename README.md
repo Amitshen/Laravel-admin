@@ -13,3 +13,5 @@
 ## License
 
 Basically, feel free to use and re-use any way you want.
+
+                     composer install --ignore-platform-reqs
